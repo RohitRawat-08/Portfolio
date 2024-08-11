@@ -1,0 +1,128 @@
+@media screen and (max-width:1200px) {
+    
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(900px,-35px);
+    }
+
+    .home{
+        height: 500px;
+    }
+    .about{
+        height: 500px;
+    }
+    .skillsec{
+        height: 600px;
+    }
+    .formcontent{
+        height: 500px;
+    }
+}
+
+
+@media screen and (max-width:1090px) {
+    
+    
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(700px,-35px);
+    }
+
+    
+    .about .right p{
+        font-size: 17px;
+    }
+}
+
+
+@media screen and (max-width:980px) {
+    
+    .navBar .port:first-child{
+        border: solid red;
+        display: none;
+    }
+
+    .navBar ul:nth-child(2){
+        width: 100%;
+        border: solid blue;
+    }
+
+    .about .right p{
+        font-size: 15px;
+    }
+    .about .left{
+        width: 250px;
+        height: 300px;
+    }
+    .project .projectboxes .two{
+        font-size: 17px;
+    }
+
+    .project .projectboxes .three{
+        font-size: 14px;
+    }
+
+    .skillBoxes .pl{
+        border: solid green ;
+        transform: scale(0.9);
+    }
+
+}
+
+
+
+
+@media screen and (max-width:855px) {
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(600px,-35px);
+    }
+    .skillBoxes{
+        padding:25px 45px;
+        gap: 5px;
+    }
+
+    .skillBoxes .pl{
+        border: solid green ;
+        transform: scale(0.8);
+    }
+
+    .project{
+        padding-top: 20px;
+        height: 1100px;
+    }
+
+    .formcontent .left{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formcontent .left .contact{
+        transform: scale(0.8);
+        padding-right: 40px ;
+
+    }
+    .formcontent .left .cnt{
+        transform: scale(0.8);
+        /* font-size: 16px; */
+        text-align: center;
+    }
+    .formcontent .right {
+        transform: scale(0.8);
+        padding-top: 100px;
+    }
+
+    .formcontent{
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width:770px){
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(500px,-35px);
+    }
+}
