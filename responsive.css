@@ -63,7 +63,7 @@
     }
 
     .skillBoxes .pl{
-        border: solid green ;
+        /* border: solid green ; */
         transform: scale(0.9);
     }
 
@@ -110,7 +110,7 @@
     }
 
     .skillBoxes .pl{
-        border: solid green ;
+        /* border: solid green ; */
         transform: scale(0.8);
     }
 
@@ -192,7 +192,7 @@
 
     .navBar ul:nth-child(2){
         /* width: 100%; */
-        border: solid blue;
+        /* border: solid blue; */
         /* display: none; */
         padding-left: 10px;
     }
@@ -280,7 +280,7 @@
 
 
     .home>:last-child{
-        border: solid red;
+        /* border: solid red; */
         transform: translate(325px,-25px);
     }
 
@@ -332,12 +332,113 @@
     .navBar ul li a{
         font-size: 12px;
     }
+
+    .navBar{
+        height: 42px;
+    }
 }
 
 
 
 
 @media screen and (max-width:470px){
+    .navBar ul li a{
+        font-size: 10px;
+    }
+    .navBar ul{
+        gap: 50px;
+    }
+
+    .formcontent .left .contact{
+        font-size: 23px;
+        width: 200px;
+    }
+    .formcontent .left .cnt{
+        width: 200px;
+        font-size: 10px;
+    }
+
+    .formcontent .right input{
+        height: 35px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 15px;
+    }
+
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(250px,-25px);
+    }
+}
+
+
+
+@media screen and (max-width:470px){
+
+    .about .left{
+        display: none;
+    }
+
+    .about .right{
+        width: 80%;
+    }
+
+    .skillBoxes{
+        height: 85%;
+        /* grid-template-columns:repeat(3,auto) ; */
+        /* grid-template-rows:repeat(2,200px) ; */
+    }
+
+    
+   
+    .skillBoxes .pl .image img{
+        height: 80px;
+        width: 80px;
+        /* border: solid black; */
+    }
+    .skillBoxes .pl .txt{
+        font-size: 20px;
+    }
+    
+    .skillBoxes .pl .image #html{
+        height: 80px;
+        width: 130px;
+        /* border: solid red; */
+    }
+    
+    .skillBoxes .pl .image #dj{
+        height: 65px;
+        width: 65px;
+        /* border: solid red; */
+    }
+    
+    .skillBoxes .pl .image #sql{
+        height: 65px;
+        width: 55px;
+        /* border: solid red; */
+    }
+    .skillBoxes .pl .rating{
+        bottom: 33px;
+    }
+    
+    .skillBoxes .pl{
+        height: 85%;
+    }
+    
+    .skillsec{
+        height: 850px;
+    }
+
+}
+
+
+
+@media screen and (max-width:375px){
+
+    .navBar ul li a{
+        display: none;
+    }
+
 
 
 }
