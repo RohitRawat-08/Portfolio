@@ -50,3 +50,35 @@ lcontact.addEventListener("click",()=>{
     lskills.style.removeProperty('color');
     lprojects.style.removeProperty('color');
 });
+
+
+
+let icons = document.getElementById("home")
+console.log(icons)
+
+if (window.innerWidth <= 600){
+    console.log("hello")
+}
+
+
+
+// let navdiv = document.createElement("div");
+
+// window.addEventListener('resize', ()=> {
+
+//     if(window.innerWidth <= 750){
+//         navdiv.style.height="55px";
+//         navdiv.style.width="100vw";
+//         navdiv.style.border="solid gold";
+//     };
+    
+//     icons.append(navdiv);
+
+// });
+
+
+
+
+
+
+
