@@ -38,7 +38,7 @@
 @media screen and (max-width:980px) {
     
     .navBar .port:first-child{
-        border: solid red;
+        /* border: solid red; */
         display: none;
     }
 
@@ -431,14 +431,86 @@
 
 }
 
+@media screen and (min-width:375px ) and (max-width:1300px){
+
+    .navBar ul #bars{
+        display: none;
+    }
+}
 
 
 @media screen and (max-width:375px){
 
-    .navBar ul li a{
+   
+
+    .navBar ul{
+    
         display: none;
     }
 
+
+    .home .content{
+        margin-left: 20px;
+    }
+
+
+    .home>:last-child{
+        /* border: solid red; */
+        transform: translate(200px,-24px);
+    }
+    .home .links a{
+        font-size: 15px;
+    }
+    .home  .RA .box{
+        align-self: center;
+        padding: 1px;
+
+    }
+
+    .home  .RA .box a{
+        font-size: 9px;
+    }
+
+    .skillsec{
+        height: 1450px;
+    }
+
+    .skillBoxes{
+    display: flex;
+    flex-direction: column;
+    }
+
+
+
+
+}
+
+
+@media screen and (max-width:325px){
+    .navBar{
+        width: 320px;
+    }
+    .home{
+        width: 320px;
+    }
+    .home .content{
+        width: 320px;
+    }
+    .about{
+        width: 320px;
+    }
+
+    .skillsec{
+    width: 320px;
+    }
+
+    .project{
+        width: 320px;
+    }
+
+    .formcontent{
+        width: 320px;
+    }
 
 
 }
