@@ -313,6 +313,7 @@ body{
     font-size: 25px;
     height: fit-content;
     width: fit-content;
+    padding-top: 10px;
     /* border: solid red; */
 }
 
@@ -325,16 +326,11 @@ body{
 .skillBoxes .pl .rating{
     /* border: solid red; */
     position: relative;
-    bottom: 23px;
+    bottom: 10px;
     color: white;
 }
 
 
-.skillBoxes .pl .image img #html{
-    height: 100px;
-    width: 100px;
-    /* border: solid blue; */
-}
 .skillBoxes .pl .image img{
     height: 100px;
     width: 100px;
