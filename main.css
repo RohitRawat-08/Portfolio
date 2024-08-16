@@ -234,9 +234,11 @@ body{
     flex-direction: column;
     gap: 10px;
 }
+
 .about .right .aboutskill{
     text-align: start;
     font-weight: 700;
+    /* border: solid red; */
 }
 .about .right p{
     color: white;
@@ -422,7 +424,9 @@ body{
     font-size: 20px;
     text-decoration: underline;
     font-weight: 600;
+    /* border: solid red; */
 }
+
 
 .project .projectboxes .one li a{
     color: white;
