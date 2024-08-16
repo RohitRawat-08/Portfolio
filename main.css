@@ -99,11 +99,15 @@ body{
     font-size: 22px;
     /* border: solid red; */
 }
+
+
 .home .content #H span{
     background-color: white;
     color: black;
     padding: 3px;
 }
+
+
 .home .content #R{
     color:rgb(255, 255, 255);
     font-size: 60px;

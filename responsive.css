@@ -341,40 +341,68 @@
 
 
 
-@media screen and (max-width:470px){
+@media screen and (max-width:465px){
+    
+    
+    
     .navBar ul li a{
-        font-size: 10px;
-    }
-    .navBar ul{
-        gap: 50px;
-    }
-
-    .formcontent .left .contact{
-        font-size: 23px;
-        width: 200px;
-    }
-    .formcontent .left .cnt{
-        width: 200px;
-        font-size: 10px;
-    }
-
-    .formcontent .right input{
-        height: 35px;
-    }
-    ::-webkit-input-placeholder{
         font-size: 15px;
+        /* border :solid red; */
+    }
+
+    .navBar ul{
+        gap: 30px;
+    }
+
+    
+    .home{
+        height: 800px;
+    }
+
+
+    .home .content{
+        width: 350px;
+        height: 70%;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .home .content #H{
+        font-size: 22px;
+    }
+
+    .home .content #R{
+        font-size: 37px;
+    
+    }
+
+    .home .content #P{
+        font-size: 22px;
+
     }
 
     .home>:last-child{
         /* border: solid red; */
-        transform: translate(250px,-25px);
+        transform: translate(250px,-60px);
     }
-}
 
-
-
-@media screen and (max-width:470px){
-
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     .about .left{
         display: none;
     }
@@ -383,10 +411,17 @@
         width: 80%;
     }
 
+    
+    
+    
+    
+    
+    
+    
+    
+    
     .skillBoxes{
         height: 85%;
-        /* grid-template-columns:repeat(3,auto) ; */
-        /* grid-template-rows:repeat(2,200px) ; */
     }
 
     
@@ -428,15 +463,51 @@
     .skillsec{
         height: 850px;
     }
+    .formcontent .left .contact{
+        font-size: 23px;
+        width: 200px;
+    }
+    .formcontent .left .cnt{
+        width: 200px;
+        font-size: 10px;
+    }
 
-}
-
-@media screen and (min-width:375px ) and (max-width:1300px){
-
-    .navBar ul #bars{
-        display: none;
+    .formcontent .right input{
+        height: 35px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 15px;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media screen and (max-width:375px){
@@ -484,6 +555,10 @@
 
 
 }
+
+
+
+
 
 
 @media screen and (max-width:325px){
