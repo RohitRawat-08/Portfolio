@@ -344,7 +344,12 @@
 @media screen and (max-width:465px){
     
     
-    
+    .navBar ul{
+        margin-right: 0px;
+        justify-content: center;
+        align-items: center;
+
+    }
     .navBar ul li a{
         font-size: 15px;
         /* border :solid red; */
@@ -357,12 +362,17 @@
     
     .home{
         height: 800px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 
     .home .content{
-        width: 350px;
+        width: 90%;
         height: 70%;
+        margin-left: 0px;
         justify-content: center;
         align-items: center;
     
@@ -384,7 +394,7 @@
 
     .home>:last-child{
         /* border: solid red; */
-        transform: translate(250px,-60px);
+        transform: translate(-150px,-60px);
     }
 
    
