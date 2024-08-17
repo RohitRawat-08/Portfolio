@@ -416,6 +416,7 @@
         height: 800px;
         flex-direction:column ;
         justify-content: start;
+        margin-top: 10px;
     }
     .about .left{
         margin-top: 70px;
@@ -480,7 +481,7 @@
         /* border: solid red; */
     }
     .skillBoxes .pl .rating{
-        bottom: 24px;
+        bottom: 20px;
     }
     
     .skillBoxes .pl{
@@ -493,8 +494,16 @@
 
 
 
+    .project .projectboxes{
+        height: 260px;
+
+    }
+    .project .projectboxes .one{
+        padding-left: 40px;
+    }
     .project .projectboxes .three{
         /* border: solid green; */
+        padding-top: 10px;
         padding-right: 30px;
         padding-bottom: 10px;
     }
