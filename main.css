@@ -266,7 +266,7 @@ body{
 
 .skillsec{
     border: solid red;
-    height: 800px;
+    height: 1800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -277,9 +277,9 @@ body{
     font-size: 35px;
     font-weight: 500;
     color: white;
-    padding-top: 40px;
+    /* padding-top: 40px; */
     /* text-decoration: underline; */
-    /* border: solid red; */
+    border: solid red;
 }
 
 
@@ -289,9 +289,9 @@ body{
     height: 80%;
     width: 100vw;
     border: solid green;
-    grid-template-rows:repeat(2,1fr) ;
-    grid-template-columns:repeat(3,1fr) ;
-    gap: 25px;
+    grid-template-rows:repeat(6,1fr) ;
+    grid-template-columns:1.6fr 1fr 3fr;
+    gap: 35px 10px;
     padding:33px 55px;
 }
 
@@ -300,18 +300,46 @@ body{
     justify-content: start;
     align-items: center;
     background-color: #635F5F;
-    padding: auto;
+    /* padding: auto; */
     box-shadow: 2px 2px 5px 2px rgb(27, 27, 27);
     border: solid .5px rgb(58, 56, 56);
     flex-direction: column;
     border: solid red ;
+    width: 250px;
+}
+
+
+.skillBoxes .html{
+    grid-area: 1/2/2/3;
+    text-align: center;
+}
+
+.skillBoxes .python{
+    grid-area: 2/3/3/4;
+}
+
+.skillBoxes .css{
+    /* grid-row: 3/4; */
+    /* grid-column: 2/3; */
+    grid-area: 3/2/4/3;
+}
+
+.skillBoxes .django{
+    grid-area: 4/3/5/4;
+}
+.skillBoxes .JavaScript{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+.skillBoxes .sql{
+    grid-area: 6/3/7/4;
 }
 
 .skillBoxes .pl:hover{
-    transform: scale(1.1);
-    transition-duration:1s ;
+    /* transform: scale(1.1); */
+    /* transition-duration:1s ; */
     /* box-shadow: 0px 0px 10px 3px aqua; */
-    background-color: rgb(62, 150, 150);
+    /* background-color: rgb(62, 150, 150); */
 }
 
 .skillBoxes .pl .txt{
