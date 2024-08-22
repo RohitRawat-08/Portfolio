@@ -265,8 +265,8 @@ body{
 /* skills file css */
 
 .skillsec{
-    /* border: solid red; */
-    height: 658px;
+    border: solid red;
+    height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -288,7 +288,7 @@ body{
     display: grid;
     height: 80%;
     width: 100vw;
-    /* border: solid green; */
+    border: solid green;
     grid-template-rows:repeat(2,1fr) ;
     grid-template-columns:repeat(3,1fr) ;
     gap: 25px;
@@ -304,7 +304,7 @@ body{
     box-shadow: 2px 2px 5px 2px rgb(27, 27, 27);
     border: solid .5px rgb(58, 56, 56);
     flex-direction: column;
-    /* border: solid red ; */
+    border: solid red ;
 }
 
 .skillBoxes .pl:hover{
