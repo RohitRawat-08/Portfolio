@@ -494,18 +494,27 @@
 
 
 
+
+    .project{
+        /* border: solid red; */
+        height:1100px;
+        gap: 15px;
+    }
+
     .project .projectboxes{
-        height: 260px;
+        /* border: solid red ; */
+        height: 340px;
 
     }
     .project .projectboxes .one{
+        /* border : solid red ; */
         padding-left: 40px;
     }
+
     .project .projectboxes .three{
         /* border: solid green; */
-        padding-top: 10px;
-        padding-right: 30px;
-        padding-bottom: 10px;
+        position: relative;
+        right: 20px;
     }
 
 
