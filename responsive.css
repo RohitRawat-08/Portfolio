@@ -567,7 +567,38 @@
 
 
 
+@media screen and (max-width:400px){
 
+    .project{
+        /* border: solid red; */
+        height:1250px;
+    }
+
+    .project .projectboxes{
+        /* border: solid red ; */
+        height: 350px;
+
+    }
+    .project div:last-child {
+        /* border: solid red ; */
+        height: 300px;
+
+    }
+    .project .projectboxes .one{
+        /* border : solid gold ; */
+        padding-left: 40px;
+    }
+
+    .project .projectboxes .three{
+        width: 300px;
+        /* border: solid green; */
+        position: relative;
+        right: 25px;
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+}
 
 
 
