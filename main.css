@@ -301,6 +301,7 @@ body{
     grid-template-columns:repeat(3,1fr) ;
     gap: 25px;
     padding:33px 55px;
+    position: relative;
 }
 
 .skillBoxes .pl{
@@ -312,15 +313,49 @@ body{
     box-shadow: 2px 2px 5px 2px rgb(27, 27, 27);
     border: solid .5px rgb(58, 56, 56);
     flex-direction: column;
+    cursor: pointer;
     /* border: solid red ; */
 }
 
-.skillBoxes .pl:hover{
-    transform: scale(1.1);
-    transition-duration:1s ;
-    /* box-shadow: 0px 0px 10px 3px aqua; */
-    background-color: rgb(62, 150, 150);
+
+#blur{
+    transition: 0.7s;
 }
+
+#blur.active{
+    filter: blur(5px);
+    pointer-events: none;
+    user-select: none;
+}
+
+#popup{
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 800px;
+    padding: 50px;
+    box-shadow: 0 5px 30px rgba(0,0,0,.30);
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    transform: 0.5s;
+}
+
+#popup.active{
+    visibility: visible;
+    opacity: 1;
+    transform: 0.5s;
+}
+
+
+
+
+
+
+
+
+
 
 .skillBoxes .pl .txt{
     color: white;
