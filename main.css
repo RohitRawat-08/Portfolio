@@ -334,13 +334,13 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
-    padding: 40px;
+    padding: 30px 50px;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: rgb(243, 239, 239);
     visibility: hidden;
     opacity: 0;
     transform: 0.5s;
-    border: solid red;
+    /* border: solid red; */
 }
 
 #popup.active{
@@ -358,7 +358,17 @@ body{
 }
 
 #popup #cross h2{
-    padding: 10px;
+    padding: 5px;
+    /* border: solid red ; */
+    text-decoration: underline;
+    
+
+}
+
+#popup #skillList{
+    /* border: solid red; */
+    padding-top: 5px;
+    
 
 }
 

@@ -79,7 +79,11 @@ function toggle(){
     var blur = document.getElementById('blur')
     blur.classList.toggle('active')
     skillName1.innerHTML="Html Skills"
-    skillList1.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li> <li>four</li> <li>five</li> `
+    skillList1.innerHTML=`<li>Html Tags like heading tags, formatting tags, audio tags, video tags, image tag ,anchor tag etc.</li> 
+    <li>Elements and Attributes.</li> 
+    <li>List : ordered, Unordered, description list.</li> 
+    <li>Html Tables.</li>
+     <li>Html forms</li> `
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
 }
@@ -98,7 +102,12 @@ function toggle2(){
     blur.classList.toggle('active')
 
     skillName2.innerHTML="Python Skills"
-    skillList2.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li>`
+    skillList2.innerHTML=`<li> Complete knowledge of the basics of Python including Data Types, Loops, Functions, and
+            condition Statements. </li> 
+            <li>Having very good knowledge of String, List, Tuple, Set, and Dictionary.</li>
+            <li>I possess a strong knowledge of Generators, Comprehensions, Decorators, Exception Handling,
+            Regular Expressions, and File Handling.</li>
+            <li> I have good knowledge of Object-Oriented Programming concepts.</li>`
 
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
@@ -119,7 +128,12 @@ function toggle3(){
     blur.classList.toggle('active')
 
     skillName3.innerHTML="JavaScript Skills"
-    skillList3.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li>`
+    skillList3.innerHTML=`<li>JavaScript type , Data Type
+        Looping Statements, Conditional Statements</li> 
+        <li>BOM (Browser Object Model), DOM (Document Object Model)</li> 
+        <li>Events, Promises, json</li> 
+        <li>Async & Await</li> 
+        <li>API & fetch API</li>`
 
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
@@ -141,7 +155,12 @@ function toggle4(){
     blur.classList.toggle('active')
 
     skillName4.innerHTML="CSS Skills"
-    skillList4.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li>`
+    skillList4.innerHTML=`<li>CSS type , CSS Selectors.</li>
+        <li>Properties in CSS like Text properties, Font properties, Background properties, Border properties</li>
+        <li>Box Model, Display Properties : Flex, Grid, etc.</li>
+        <li>Positions : Static, Fixed, Relative etc.</li>
+        <li>Transform, Transition, Animation</li>
+        <li>Media Query for adding responsiveness.</li>`
 
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
@@ -161,7 +180,8 @@ function toggle5(){
     blur.classList.toggle('active')
 
     skillName5.innerHTML="Django Skills"
-    skillList5.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li>`
+    skillList5.innerHTML=`<li> Knowledge about Templates Engine, URL Routing, views.</li> 
+    <li>I have good knowledge of ORM (Object-relational mapper) concepts.</li>`
 
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
@@ -181,8 +201,10 @@ function toggle6(){
     var blur = document.getElementById('blur')
     blur.classList.toggle('active')
 
-    skillName6.innerHTML="sql Skills"
-    skillList6.innerHTML=`<li>one</li> <li>two</li> <li>Tree</li>`
+    skillName6.innerHTML="SQL Skills"
+    skillList6.innerHTML=`<li> Extensive Knowledge in writing SQL queries, Excellent at performing CRUD operations on any RDBMS. </li> <li>Worked on topics like Joins, Sub-queries, Grouping, Functions, and Pseudo Columns.</li>
+    <li>Knowledge of the Statements (DDL, DML, TCL, DCL, DQL) and also learned about the
+    normalization of tables.</li>`
 
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
