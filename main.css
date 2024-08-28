@@ -334,12 +334,13 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     width: 800px;
-    padding: 50px;
+    padding: 40px;
     box-shadow: 0 5px 30px rgba(0,0,0,.30);
     background-color: rgb(243, 239, 239);
     visibility: hidden;
     opacity: 0;
     transform: 0.5s;
+    border: solid red;
 }
 
 #popup.active{
@@ -356,12 +357,16 @@ body{
     align-items: end;
 }
 
+#popup #cross h2{
+    padding: 10px;
+
+}
 
 #popup #cross i{
-    font-size: 30px;
+    /* font-size: 30px; */
     position: relative;
     bottom: 40px;
-    left: 30px;
+    left: 20px;
 }
 
 
@@ -480,6 +485,7 @@ body{
     padding-left: 35px;
     padding-top: 15px;
     padding-right: 5px;
+    font-size: 20px;
     /* border: solid red; */
 }
 .project .projectboxes .two{
