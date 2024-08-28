@@ -391,7 +391,7 @@ body{
 
 .skillBoxes .pl .rating{
     /* border: solid red; */
-    /* position: relative; */
+    position: relative;
     bottom: 10px;
 }
 
