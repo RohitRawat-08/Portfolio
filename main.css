@@ -390,10 +390,17 @@ body{
 
 .skillBoxes .pl .rating{
     /* border: solid red; */
-    position: relative;
+    /* position: relative; */
     bottom: 10px;
-    color: white;
 }
+
+.skillBoxes .pl .rating img{
+    color: gold;
+    position: relative;
+    height: 23px;
+    width:  23px;
+}
+
 
 
 .skillBoxes .pl .image img{
@@ -421,9 +428,7 @@ body{
     /* border: solid red; */
 }
 
-.skillBoxes .pl .rating i{
-    color: gold;
-}
+
 
 
 
@@ -465,7 +470,7 @@ body{
 
 .project .projectboxes p{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding-top: 5px;
     font-weight: 600;
