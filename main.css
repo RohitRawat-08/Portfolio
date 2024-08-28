@@ -10,9 +10,13 @@ body{
     overflow-x: hidden;
     font-family: poppins;
     font-family: "Noto Sans", sans-serif;
-    background-color: rgb(44, 41, 41);
-    /* background-color: white; */
+    /* background-color: rgb(44, 41, 41); */
+    background-color:#F4F1DE;
+    background-color:#BBDFE6;
+    background-color:#F2F2F2;
+    background-color:#d4e1e4;
     
+        
 
     /* background-image: url(../images/black\ solid\ texture.png); */
 
@@ -26,7 +30,10 @@ body{
     height: 55px;
     width: 100vw;
     /* background-color: rgb(163, 151, 236); */
-    background-color: rgb(44, 41, 41);
+    /* background-color: rgb(44, 41, 41); */
+    /* background-color: #F4F1DE; */
+    background-color: #B9DEE5;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     /* border: solid red; */
@@ -41,6 +48,7 @@ body{
     font-weight: 800;
     margin-left: 50px;
     color: white;
+    color: black;
     /* border: solid green; */
 }
 
@@ -56,8 +64,7 @@ body{
 
 
 .navBar ul li a{
-    color: white;
-    /* color: white; */
+    color: black;
     font-size: 20px;
     text-decoration: none;
     /* font-family: "Noto Sans", sans-serif; */
@@ -88,21 +95,24 @@ body{
 .home .content{
     color: white;
     /* border: solid red; */
-    width: 550px;
+    width: 100vw;
     height: 70%;
     display: flex;
     justify-content: center;
     align-items: start;
     flex-direction: column;
-    margin-left: 40px;
-    margin-top: 70px;
+    /* margin-left: 40px; */
+    padding-left: 40px;
+    margin-top: 50px;
     gap: 20px;
+    background-color: #BADEE5;
+    background-color: #93BAF5;
 }
 
 
 .home .content #H{
     /* background-color: white; */
-    color: white;
+    color: rgb(0, 0, 0);
     /* color: white; */
     font-size: 22px;
     /* border: solid red; */
@@ -110,20 +120,21 @@ body{
 
 
 .home .content #H span{
-    background-color: white;
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 3px;
 }
 
 
 .home .content #R{
     color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
     font-size: 60px;
     /* border: solid red; */
 }
 
 .home .content #P{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 25px;
     /* border: solid red; */
 }
@@ -204,14 +215,21 @@ body{
 .about{
     height: 658px;
     width: 100vw;
-    /* border: solid red ; */
+    border: solid red ;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-
+.about .aboutbox{
+    display: flex;
+    /* border :solid black; */
+    justify-content: center;
+    align-items: center;
+    margin: 80px 90px;
+    background-color: white;
+}
 .about .left{
     /* border: solid red ; */
     width: 300px;
@@ -227,7 +245,7 @@ body{
     height: 100%;
     width: 100%;       
     /* border: solid blue; */
-    background-image: url(./images/aboutimgfinal.png);
+    /* background-image: url(./imag es/aboutimgfinal.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -235,7 +253,7 @@ body{
 
 
 .about .right{
-    /* border: solid red ; */
+    /* border: solid rgb(0, 0, 0) ; */
     width: 55%;
     padding-top: 10px;
     display: flex;
@@ -246,10 +264,11 @@ body{
 .about .right .aboutskill{
     text-align: start;
     font-weight: 700;
-    /* border: solid red; */
+    /* border: solid rgb(0, 0, 0); */
+    color: black;
 }
 .about .right p{
-    color: white;
+    /* color: rgb(0, 0, 0); */
     font-size: 18px;
 }
 
@@ -284,7 +303,7 @@ body{
     text-align: center;
     font-size: 35px;
     font-weight: 500;
-    color: white;
+    color: rgb(0, 0, 0);
     padding-top: 40px;
     /* text-decoration: underline; */
     /* border: solid red; */
@@ -308,13 +327,19 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    background-color: #635F5F;
+    background-color: #ffffff;
     padding: auto;
-    box-shadow: 2px 2px 5px 2px rgb(27, 27, 27);
-    border: solid .5px rgb(58, 56, 56);
+    /* border: solid .5px rgb(58, 56, 56); */
     flex-direction: column;
     cursor: pointer;
     /* border: solid red ; */
+}
+
+.skillBoxes .pl:hover{
+    box-shadow: 2px 2px 10px 2px grey;
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+    
 }
 
 
@@ -385,7 +410,7 @@ body{
 
 
 .skillBoxes .pl .txt{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     height: fit-content;
     width: fit-content;
