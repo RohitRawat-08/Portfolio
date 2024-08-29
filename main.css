@@ -6,24 +6,33 @@
 
 
 body{
-    /* overflow-y: hidden; */
     overflow-x: hidden;
     font-family: poppins;
     font-family: "Noto Sans", sans-serif;
-    /* background-color: rgb(44, 41, 41); */
-    background-color:#F4F1DE;
-    background-color:#BBDFE6;
-    background-color:#F2F2F2;
-    background-color:#d4e1e4;
-    
+    background: linear-gradient(45deg , purple, aqua ,#cf5665, #8176d4,pink);
+    background-size: 100% 100%;
+    animation: color 12s ease-in-out infinite;
+}
+
+
+
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    25%{
+        background-position: 100% 50%;
         
-
-    /* background-image: url(../images/black\ solid\ texture.png); */
-
-    /* background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative; */
+    }
+    50%{
+        background-position: 0 50%;
+    }
+    75%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 .navBar{
@@ -32,8 +41,8 @@ body{
     /* background-color: rgb(163, 151, 236); */
     /* background-color: rgb(44, 41, 41); */
     /* background-color: #F4F1DE; */
-    background-color: #B9DEE5;
-    background-color: white;
+    /* background-color: #B9DEE5; */
+    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     /* border: solid red; */
@@ -105,8 +114,8 @@ body{
     padding-left: 40px;
     margin-top: 50px;
     gap: 20px;
-    background-color: #BADEE5;
-    background-color: #93BAF5;
+    /* background-color: #BADEE5;
+    background-color: #93BAF5; */
 }
 
 
@@ -215,7 +224,7 @@ body{
 .about{
     height: 658px;
     width: 100vw;
-    border: solid red ;
+    /* border: solid red ; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -496,7 +505,7 @@ body{
     height: 300px;
     width: 85%;
     border: solid rgb(71, 68, 68);
-    background-color: #635F5F;
+    background-color: #ffffff;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -505,7 +514,7 @@ body{
 }
 
 .project .projectboxes p{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     text-align: center;
     padding-top: 5px;
@@ -514,7 +523,7 @@ body{
 }
 
 .project .projectboxes .one{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-left: 35px;
     padding-top: 15px;
     padding-right: 5px;
@@ -522,7 +531,7 @@ body{
 }
 
 .project .projectboxes .three{
-    color: white;
+    color: rgb(0, 0, 0);
     padding-left: 35px;
     padding-top: 15px;
     padding-right: 5px;
@@ -582,7 +591,7 @@ body{
 
 .formcontent .left .contact{
     width: 380px;
-    color: white;
+    color: rgb(0, 0, 0);
     /* border :solid green; */
     font-size: 48px;
     text-align: end;
@@ -592,7 +601,7 @@ body{
 }
 
 .formcontent .left .cnt{
-    color: white;
+    color: rgb(0, 0, 0);
     width: 380px;
     transform: translateY(550%);
     /* border: solid red; */
@@ -621,17 +630,23 @@ body{
     font-size: 17px;
     border-radius: 5px;
     padding: 5px;
-    background-color: rgb(99, 95, 95);
-    color: rgb(180, 175, 175);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     outline: none;
-    border: solid .5px rgb(58, 56, 56);
-    box-shadow: 2px 2px 5px 2px rgb(27, 27, 27);
+    border: none;
+    /* box-shadow: 2px 2px 5px 2px rgb(27, 27, 27); */
     /* border: solid red; */
     
 }
 
+.formcontent .right input{
+    box-shadow: 2px 2px 10px 2px rgb(32, 32, 32);
+    transform: translateY(-5px);
+    transition-duration: 0.5s;
+}
+
 ::-webkit-input-placeholder{
-    color:rgb(180, 175, 175);
+    color:rgb(0, 0, 0);
 }
 
 .formcontent .right .msg{
