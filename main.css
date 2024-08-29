@@ -1,6 +1,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=M+PLUS+1+Code:wght@100..700&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=M+PLUS+1+Code:wght@100..700&family=Petrona:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=M+PLUS+1+Code:wght@100..700&family=Petrona:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Distressed&display=swap');
 
 *{margin: 0;padding: 0; box-sizing: border-box;}
 
@@ -12,6 +15,8 @@ body{
     background: linear-gradient(45deg , purple, aqua ,#cf5665, #8176d4,pink);
     background-size: 100% 100%;
     animation: color 12s ease-in-out infinite;
+    /* font-family: "Petrona", serif; */
+    font-family: "Poppins", sans-serif;
 }
 
 
@@ -50,6 +55,9 @@ body{
     top:0;
     font-family: "Lato", sans-serif;
     z-index: 10;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
+    
 }
 
 .navBar .port{
@@ -78,6 +86,7 @@ body{
     text-decoration: none;
     /* font-family: "Noto Sans", sans-serif; */
     font-family: "Lato", sans-serif;
+    
 }
 
 .navBar ul li  :hover{
@@ -99,6 +108,8 @@ body{
     height: 658px;
     /* background-color: rgb(163, 151, 236); */
     /* border: solid red; */
+    font-family: "Edu VIC WA NT Beginner", cursive;
+
 }
 
 .home .content{
@@ -114,6 +125,7 @@ body{
     padding-left: 40px;
     margin-top: 50px;
     gap: 20px;
+    font-weight: 700;
     /* background-color: #BADEE5;
     background-color: #93BAF5; */
 }
@@ -163,7 +175,7 @@ body{
 
 .home  .RA .box{
     width: fit-content;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     padding: 3px;
     align-self: flex-end;
@@ -171,7 +183,7 @@ body{
 
 .home  .RA .box a{
     text-decoration: none;
-    color : black;
+    color : rgb(255, 255, 255);
     font-size: 13px;
 }
 
@@ -193,16 +205,16 @@ body{
 .home .links a{
     color: white;
     text-decoration: none;
-    /* border: solid red; */
+    border: solid red;
     font-size: 25px;
    
 }
 
 .home>:last-child{
-    height: 8%;
-    width: 9%;
+    /* height: 8%; */
+    /* width: 9%; */
     /* border: solid red; */
-    transform: translate(1050px,-50px);
+    /* transform: translate(1050px,-50px); */
 }
 
 
@@ -233,11 +245,12 @@ body{
 
 .about .aboutbox{
     display: flex;
-    /* border :solid black; */
+    border :solid black;
     justify-content: center;
     align-items: center;
     margin: 80px 90px;
-    background-color: white;
+    background-color: rgb(41, 35, 35);
+    color: white;
 }
 .about .left{
     /* border: solid red ; */
@@ -262,7 +275,7 @@ body{
 
 
 .about .right{
-    /* border: solid rgb(0, 0, 0) ; */
+    /* border: solid rgb(255, 255, 255) ; */
     width: 55%;
     padding-top: 10px;
     display: flex;
@@ -271,10 +284,12 @@ body{
 }
 
 .about .right .aboutskill{
-    text-align: start;
+    text-align: center;
     font-weight: 700;
-    /* border: solid rgb(0, 0, 0); */
-    color: black;
+    /* border: solid rgb(255, 0, 0); */
+    color: rgb(255, 255, 255);
+    padding-top: 0px;
+    font-size: 35px;
 }
 .about .right p{
     /* color: rgb(0, 0, 0); */
@@ -322,6 +337,8 @@ body{
     padding-top: 40px;
     /* text-decoration: underline; */
     /* border: solid red; */
+    font-family: "Rubik Distressed", system-ui;
+
 }
 
 
@@ -516,7 +533,7 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    /* gap: 15px; */
     /* border: solid red; */
     position: relative;
 }
@@ -555,51 +572,51 @@ body{
 
 
 .project .projectboxes .one li a{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
-@property --angle{
+/* @property --angle{
     syntax: '<angle>';
     initial-value: 0deg;
     inherits: false;
-}
+} */
 
 
 
 
-.projectboxes::after, .projectboxes::before{
-    content:'';
-    position: absolute;
-    height: 103%;
-    width: 101%;
-    left: -1%;
-    top: -3%;
+/* .projectboxes::after, .projectboxes::before{ */
+    /* content:''; */
+    /* position: absolute; */
+    /* height: 103%; */
+    /* width: 101%; */
+    /* left: -1%; */
+    /* top: -3%; */
     /* background-color: red; */
-    background-image: conic-gradient(from var(--angle) ,transparent 30%,#006aff ,#ff0095,#ff4545,#006aff);
+    /* background-image: conic-gradient(from var(--angle) ,transparent 30%,#006aff ,#ff0095,#ff4545,#006aff); */
     /* background-image: conic-gradient(from var(--angle) ,transparent 30% ,rgb(138, 219, 130)); */
-    z-index: -1;
-    padding: 5px;
+    /* z-index: -1; */
+    /* padding: 5px; */
     /* border-radius: 10px; */
-    animation: 3s spin linear infinite;
+    /* animation: 3s spin linear infinite; */
 
-}
+/* } */
 
-.projectboxes::before{
-    filter: blur(1.5rem);
-    opacity: 0.5;
-}
+/* .projectboxes::before{ */
+    /* filter: blur(1.5rem); */
+    /* opacity: 0.5; */
+/* } */
 
 
 
-@keyframes spin {
+/* @keyframes spin {
     from{
         --angle:0deg;
     }
     to{
         --angle:360deg;
     }
-}
+} */
 
 
 

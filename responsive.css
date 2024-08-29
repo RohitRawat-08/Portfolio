@@ -569,6 +569,35 @@
 
 @media screen and (max-width:400px){
 
+
+    .home .content{
+        /* border: solid red; */
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+
+    .about{
+        height: 900px;
+    }
+
+    .about .left{
+        display: none;
+    }
+
+    .about .aboutbox{
+        /* border: solid red; */
+        margin: 50px 10px;
+        padding: 5px;
+
+    }
+
+    .project .projectboxes p{
+        font-size: 20px;
+    }
+
     .project{
         /* border: solid red; */
         height:1250px;
@@ -576,7 +605,7 @@
 
     .project .projectboxes{
         /* border: solid red ; */
-        height: 350px;
+        height: 375px;
 
     }
     .project div:last-child {
