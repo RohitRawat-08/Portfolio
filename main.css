@@ -298,6 +298,12 @@ body{
 
 
 
+
+
+
+
+
+
 /* skills file css */
 
 .skillsec{
@@ -336,16 +342,17 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
+    /* background-color: #ffffff; */
     background-color: #ffffff;
     padding: auto;
     /* border: solid .5px rgb(58, 56, 56); */
     flex-direction: column;
     cursor: pointer;
-    /* border: solid red ; */
+    /* border: solid black ; */
 }
 
 .skillBoxes .pl:hover{
-    box-shadow: 2px 2px 10px 2px grey;
+    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0);
     transform: translateY(-5px);
     transition-duration: 0.5s;
     
@@ -504,13 +511,14 @@ body{
 .project .projectboxes{
     height: 300px;
     width: 85%;
-    border: solid rgb(71, 68, 68);
+    /* border: solid rgb(71, 68, 68); */
     background-color: #ffffff;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 15px;
     /* border: solid red; */
+    position: relative;
 }
 
 .project .projectboxes p{
@@ -549,6 +557,87 @@ body{
 .project .projectboxes .one li a{
     color: white;
 }
+
+
+@property --angle{
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+
+
+.projectboxes::after, .projectboxes::before{
+    content:'';
+    position: absolute;
+    height: 103%;
+    width: 101%;
+    left: -1%;
+    top: -3%;
+    /* background-color: red; */
+    background-image: conic-gradient(from var(--angle) ,transparent 30%,#006aff ,#ff0095,#ff4545,#006aff);
+    /* background-image: conic-gradient(from var(--angle) ,transparent 30% ,rgb(138, 219, 130)); */
+    z-index: -1;
+    padding: 5px;
+    /* border-radius: 10px; */
+    animation: 3s spin linear infinite;
+
+}
+
+.projectboxes::before{
+    filter: blur(1.5rem);
+    opacity: 0.5;
+}
+
+
+
+@keyframes spin {
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
