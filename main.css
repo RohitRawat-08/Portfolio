@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
     font-family: poppins;
     font-family: "Noto Sans", sans-serif;
-    background: linear-gradient(45deg , purple, aqua ,#cf5665, #8176d4,pink);
+    background: linear-gradient(45deg , purple, rgba(0, 255, 255, 0.637) ,#cf5665, #8176d4,pink);
     background-size: 100% 100%;
     animation: color 12s ease-in-out infinite;
     /* font-family: "Petrona", serif; */
@@ -135,7 +135,9 @@ body{
     /* background-color: #BADEE5;
     background-color: #93BAF5; */
 }
-
+.home .content .left{
+    /* border: solid red; */
+}
 
 .home .content .image{
     border: solid  black;
@@ -185,9 +187,9 @@ body{
     width: 50%;
     display: flex;
     justify-content: start;
-    padding-left: 50px;
     gap: 60px;
     align-self: flex-end;
+    padding-left: 50px;
     margin-left: 40px;
 
 
