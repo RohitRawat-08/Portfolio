@@ -139,19 +139,24 @@ body{
     /* border: solid red; */
 }
 
-.home .content .image{
-    border: solid  black;
+.home .content .image img {
+    border: solid 2px black;
     /* border-style: dotted; */
     border-radius: 50%;
     position: relative;
-    height: 450px;
-    width: 450px;
-    background-image: url(./images/Layer1.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    height: 400px;
+    width: 380px;
+    /* background-image: url(./images/Layer1.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
     margin-right: 100px;
-    top: 50px;
+    top: 60px;
 }
+
+/* .home .content .image img{
+    position: relative;
+    left: 40px;
+} */
 
 .home .content #H{
     /* background-color: white; */

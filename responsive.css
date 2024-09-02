@@ -587,12 +587,12 @@
         align-items: center;
         font-weight: 500;
     }
-    .home .content .image{
-        background-image: url(./images/rohitwoutbg.png);
+    .home .content .image img{
         position: static;
-        height: 330px;
-        width: 300px;
+        height: 210px;
+        width: 200px;
         margin-right: 0px;
+        bottom: 10px;
     }
 
     .home .RA{
