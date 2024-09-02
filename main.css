@@ -140,7 +140,7 @@ body{
 }
 
 .home .content .image img {
-    border: solid 2px black;
+    border: solid 1px black;
     /* border-style: dotted; */
     border-radius: 50%;
     position: relative;

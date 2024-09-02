@@ -53,6 +53,74 @@ lcontact.addEventListener("click",()=>{
 
 
 
+window.addEventListener("scroll" ,()=>{
+    
+    if (scrollY > 0 && scrollY < 700){
+        console.log(scrollY)
+        lhome.style.color="aqua";
+
+        labout.style.removeProperty('color');
+        lskills.style.removeProperty('color');
+        lprojects.style.removeProperty('color');
+        lcontact.style.removeProperty('color');
+    }
+
+    if (scrollY > 600 && scrollY < 1200){
+        console.log(scrollY)
+        labout.style.color="aqua";
+    
+        lhome.style.removeProperty('color');
+        lskills.style.removeProperty('color');
+        lprojects.style.removeProperty('color');
+        lcontact.style.removeProperty('color');
+    }
+
+
+    if (scrollY > 1200 && scrollY < 2000 ){
+        console.log(scrollY)
+        lskills.style.color="aqua";
+
+        lhome.style.removeProperty('color');
+        labout.style.removeProperty('color');
+        lprojects.style.removeProperty('color');
+        lcontact.style.removeProperty('color');
+    }
+
+    if (scrollY > 2000 && scrollY < 3300 ){
+        console.log(scrollY)
+        lprojects.style.color="aqua";
+
+        lhome.style.removeProperty('color');
+        labout.style.removeProperty('color');
+        lskills.style.removeProperty('color');
+        lcontact.style.removeProperty('color');
+    }
+
+    if (scrollY > 3300 && scrollY < 3650 ){
+        console.log(scrollY)
+        lcontact.style.color="aqua";
+
+        lhome.style.removeProperty('color');
+        labout.style.removeProperty('color');
+        lskills.style.removeProperty('color');
+        lprojects.style.removeProperty('color');
+    }
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -209,3 +277,18 @@ function toggle6(){
     var popup = document.getElementById('popup')
     popup.classList.toggle('active')
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
