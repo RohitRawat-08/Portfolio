@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="shortcut icon" href="./images/rr.webp" type="image/x-icon">
     <link rel="stylesheet" href="./responsive.css">
-    <script defer src="./script.js"></script>
-    <script defer src="https://smtpjs.com/v3/smtp.js"></script>
 </head>
 <body>
     <section id="blur">
@@ -279,11 +277,15 @@
             
             <div class="right">
                 <form action="">
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email Address">
-                    <input type="text" placeholder="Your Mobile Number">
-                    <input class = "msg" type="text" placeholder="Your Message">
-                    <button class="box">Submit</button>
+                    <input type="text" id="UserName" placeholder="Your Name">
+
+                    <input type="email" id="UserEmail" placeholder="Your Email Address">
+
+                    <input type="text" id="UserNo" placeholder="Your Mobile Number">
+
+                    <input class = "msg" id="UserMsg" type="text" placeholder="Your Message">
+                    
+                    <button type="submit" class="box">Submit</button>
                 </form>
     
             </div>
@@ -296,6 +298,9 @@
         <ul id="skillList"></ul>
 
     </div>
+   
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="./script.js"></script>
 
 </body>
 </html>

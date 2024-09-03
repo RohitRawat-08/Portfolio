@@ -125,6 +125,59 @@ window.addEventListener("scroll" ,()=>{
 
 
 
+const form = document.querySelector("form");
+console.log(form);
+
+const FullName = document.getElementById('UserName');
+const userEmail = document.getElementById('UserEmail');
+const userNo = document.getElementById('UserNo');
+const message = document.getElementById('UserMsg');
+
+console.log(FullName.value)
+
+function sendEmail(){
+    const bodymsg = `FullName: ${FullName.value} <br> Email :${userEmail.value} <br> Phone Number : ${userNo.value} <br> meaasge:${message.value}`
+    Email.send({
+        Host : "smtp.elasticemail.com",
+        Username : "rsrawat2929@gmail.com",
+        Password : "635D72BFE052ECBD7D9735DAB22C1C708087",
+        To : 'rsrawat2929@gmail.com',
+        From : 'rsrawat2929@gmail.com',
+        // Username : "rawatrohan904@gmail.com",
+        // Password : "78AE3E8ED8B6C1777164F23F0148ED2D420B",
+        // To : 'rawatrohan904@gmail.com',
+        // From : 'rawatrohan904@gmail.com',
+        Subject : "New Contact form",
+        Body: bodymsg
+    }).then(
+      message => alert(message)
+    );
+}
+
+form.addEventListener('submit',(e) =>{
+    e.preventDefault();
+    sendEmail();
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // !===============for html
