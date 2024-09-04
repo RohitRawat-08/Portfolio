@@ -567,7 +567,7 @@
 
 
 
-@media screen and (max-width:400px){
+@media screen and (max-width:450px){
 
     body{
          background: linear-gradient(45deg , purple, rgba(0, 255, 255, 0.212) ,#cf5665, #8176d4,pink);
