@@ -15,7 +15,6 @@ body{
     background: linear-gradient(45deg , purple, rgba(0, 255, 255, 0.637) ,#cf5665, #8176d4,pink);
     background-size: 100% 100%;
     animation: color 12s ease-in-out infinite;
-    /* font-family: "Petrona", serif; */
     font-family: "Poppins", sans-serif;
 }
 
@@ -43,23 +42,14 @@ body{
 .navBar{
     height: 55px;
     width: 100vw;
-    /* background-color: rgb(163, 151, 236); */
-    /* background-color: rgb(44, 41, 41); */
-    /* background-color: #F4F1DE; */
-    /* background-color: #B9DEE5; */
-    /* background-color: white; */
     display: flex;
     justify-content: space-between;
     /* border: solid red; */
     position: fixed;
     top:0;
-    /* font-family: "Lato", sans-serif; */
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    z-index: 10;
-    /* font-family: "Edu VIC WA NT Beginner", cursive; */
-
-    
+    z-index: 10;    
 }
 
 .navBar .port{
@@ -86,7 +76,6 @@ body{
     color: black;
     font-size: 20px;
     text-decoration: none;
-    /* font-family: "Noto Sans", sans-serif; */
     font-family: "Lato", sans-serif;
     
 }
@@ -108,9 +97,6 @@ body{
 
 .home{
     height: 658px;
-    /* background-color: rgb(163, 151, 236); */
-    /* border: solid red; */
-    /* font-family: "Edu VIC WA NT Beginner", cursive; */
 
 }
 
@@ -119,25 +105,17 @@ body{
 
 .home .content{
     color: white;
-    /* position: relative; */
-    /* border: solid red; */
     width: 100vw;
     height: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    /* margin-left: 40px; */
     padding-left: 40px;
     margin-top: 50px;
-    /* gap: 20px; */
     font-weight: 700;
-    /* background-color: #BADEE5;
-    background-color: #93BAF5; */
 }
-.home .content .left{
-    /* border: solid red; */
-}
+
 
 .home .content .image img {
     border: solid 1px black;
@@ -146,22 +124,14 @@ body{
     position: relative;
     height: 400px;
     width: 380px;
-    /* background-image: url(./images/Layer1.png); */
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
     margin-right: 100px;
     top: 60px;
 }
 
-/* .home .content .image img{
-    position: relative;
-    left: 40px;
-} */
+
 
 .home .content #H{
-    /* background-color: white; */
     color: rgb(0, 0, 0);
-    /* color: white; */
     font-size: 22px;
     /* border: solid red; */
 }
@@ -236,13 +206,6 @@ body{
     font-size: 25px;
    
 }
-
-/* .home>:last-child{ */
-    /* height: 8%; */
-    /* width: 9%; */
-    /* border: solid red; */
-    /* transform: translate(1050px,-50px); */
-/* } */
 
 
 
@@ -365,8 +328,6 @@ body{
     font-size: 35px;
     color: rgb(0, 0, 0);
     padding-top: 40px;
-    /* text-decoration: underline; */
-    /* border: solid red; */
     font-family: "Poppins", sans-serif;
     font-weight: 700;
 
@@ -391,20 +352,11 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
-    /* background-color: #ffffff; */
     background-color: #e7d88100;
     padding: auto;
-    /* border: solid .5px rgb(58, 56, 56); */
     flex-direction: column;
     cursor: pointer;
     /* border: solid black ; */
-}
-
-.skillBoxes .pl:hover{
-    box-shadow: 2px 2px 10px 2px rgb(0, 0, 0);
-    transform: translateY(-5px);
-    transition-duration: 0.5s;
-    
 }
 
 
@@ -608,47 +560,6 @@ body{
 }
 
 
-/* @property --angle{
-    syntax: '<angle>';
-    initial-value: 0deg;
-    inherits: false;
-} */
-
-
-
-
-/* .projectboxes::after, .projectboxes::before{ */
-    /* content:''; */
-    /* position: absolute; */
-    /* height: 103%; */
-    /* width: 101%; */
-    /* left: -1%; */
-    /* top: -3%; */
-    /* background-color: red; */
-    /* background-image: conic-gradient(from var(--angle) ,transparent 30%,#006aff ,#ff0095,#ff4545,#006aff); */
-    /* background-image: conic-gradient(from var(--angle) ,transparent 30% ,rgb(138, 219, 130)); */
-    /* z-index: -1; */
-    /* padding: 5px; */
-    /* border-radius: 10px; */
-    /* animation: 3s spin linear infinite; */
-
-/* } */
-
-/* .projectboxes::before{ */
-    /* filter: blur(1.5rem); */
-    /* opacity: 0.5; */
-/* } */
-
-
-
-/* @keyframes spin {
-    from{
-        --angle:0deg;
-    }
-    to{
-        --angle:360deg;
-    }
-} */
 
 
 
